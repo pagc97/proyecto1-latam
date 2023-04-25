@@ -6,6 +6,7 @@
     --secundario: #fdd909;
     
     --fuentePrincipal: 'Staatliches', cursive;
+
 }
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -96,7 +97,7 @@ h3 {
 .navegacion__item:hover {
     color: var(--secundario);
 }
-/* Secciones */
+/* Seccion inicio */
 .contenido-inicio {
     display: flex;
     flex-direction: column;
@@ -125,8 +126,32 @@ article {
 .contenido-inicio__boton:hover {
     color: var(--primario);
 }
+/* seccion contacto */
+.contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 20rem 0;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__sombra {
+    background-color: var(--primario);
+}
+.contacto__sombra {
+    margin-bottom: 10rem;
+}
+.contacto__icons {
+    display: flex;
+    
+    gap: 4rem;
 
 
+}
+.contacto__icon {
+
+    height: 20rem;
+    width: 30rem;
+}
 
 
 
