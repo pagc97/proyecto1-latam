@@ -93,7 +93,6 @@ h3 {
     font-weight: bold;
     
 }
-.navegacion__item--activo,
 .navegacion__item:hover {
     color: var(--secundario);
 }
@@ -110,6 +109,7 @@ h3 {
 .contenido-inicio__pagc {
     border-radius: 80%;
     width: 40rem;
+    height: 45rem;
 }
 
 article {
@@ -136,6 +136,7 @@ article {
 }
 .contacto__sombra {
     background-color: var(--primario);
+    border-radius: 2rem;
 }
 .contacto__sombra {
     margin-bottom: 10rem;
